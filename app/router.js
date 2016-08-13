@@ -7,6 +7,12 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('employee');
+  this.route('department');
+  this.route('nav-header');
+  this.route('create-employee');
+  this.route('new-employee');
+  this.route('new-department');
 });
 
 export default Router;

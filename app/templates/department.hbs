@@ -1,0 +1,8 @@
+<div class="container">
+  {{employee-view}}
+  <ul>
+     {{#each model as |employee|}}
+      <li>{{employee.name}} {{employee.dno}}</li>
+      {{/each}}
+  </ul>
+</div>
